@@ -1,0 +1,5 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-auto-bind-$1/ \
+ https://github.com/sindresorhus/auto-bind/tags .*/archive/.*/v?([\d\.]+).tar.gz
